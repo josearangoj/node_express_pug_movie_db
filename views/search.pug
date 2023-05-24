@@ -1,0 +1,16 @@
+extends layout 
+
+block content
+    if errors
+        for error in errors
+            p#missing_entry #{error.msg}
+
+    h1 Search Movie
+    //- Create form for movie and post to express route
+    form(method="POST")
+        //- Create input elements based on movie model
+        #form-group 
+            label Name:
+            input.form-control(name="name", type="text")
+
+        input.btn.btn-primary(type="submit", value="Submit")

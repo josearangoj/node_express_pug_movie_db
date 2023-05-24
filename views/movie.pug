@@ -1,0 +1,24 @@
+extends layout 
+
+block content 
+    h1.movie-title= movie.name
+    if posted_by
+        h5.movie-posted-by Posted by #{posted_by}
+    h5.movie-posted-on Posted on #{movie.year}
+    p.movie-description #{movie.description}
+    p.movie-rating Rating: #{movie.rating}
+    label.movie-genres Genres
+    div.genres-container
+        ul.movie-genres-list
+            each genre in movie.genres
+                li.movie-genres-item= genre
+    
+    hr
+
+    if user
+        if user.id == movie.posted_by
+            //- Link to edit movie
+            a.btn.btn-default(href="/movie/edit/" + movie._id) Edit Movie
+            br
+            //- Link to delete movie
+            a.btn.delete-movie(href="#", data-id=movie._id) Delete Movie

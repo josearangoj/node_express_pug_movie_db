@@ -1,0 +1,83 @@
+[{
+  "_id": {
+    "$oid": "6432432627c4b54531ba0c10"
+  },
+  "name": "The Shawshank Redemption",
+  "description": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+  "year": 1994,
+  "genres": [
+    "crime",
+    "drama",
+    "history"
+  ],
+  "rating": 9.4,
+  "posted_by": "6432d060a003d5cb690a418c"
+},{
+  "_id": {
+    "$oid": "6432432627c4b54531ba0c11"
+  },
+  "name": "The Dark Knight",
+  "description": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+  "year": 2008,
+  "genres": [
+    "Action",
+    "Crime",
+    "Drama"
+  ],
+  "rating": 9,
+  "posted_by": "6432d060a003d5cb690a418c"
+},{
+  "_id": {
+    "$oid": "6432432627c4b54531ba0c12"
+  },
+  "name": "The Godfather: Part II",
+  "description": "The early life and career of Vito Corleone in 1920s New York City is portrayed, while his son, Michael, expands and tightens his grip on the family crime syndicate.",
+  "year": 1974,
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "rating": 9,
+  "posted_by": "6432d060a003d5cb690a418c"
+},{
+  "_id": {
+    "$oid": "6432432627c4b54531ba0c13"
+  },
+  "name": "Pulp Fiction",
+  "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+  "year": 1994,
+  "genres": [
+    "Crime",
+    "Drama"
+  ],
+  "rating": 8.9,
+  "posted_by": "6432d060a003d5cb690a418c"
+},{
+  "_id": {
+    "$oid": "6432432627c4b54531ba0c14"
+  },
+  "name": "The Lord of the Rings: The Return of the King",
+  "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+  "year": 2003,
+  "genres": [
+    "Action",
+    "Adventure",
+    "Drama"
+  ],
+  "rating": 9,
+  "posted_by": "6432d060a003d5cb690a418c"
+},{
+  "_id": {
+    "$oid": "6432f2cd447901720b035f6c"
+  },
+  "genres": [
+    "comedy",
+    "animation",
+    "documentary"
+  ],
+  "name": "Friends",
+  "description": "5 friends join and do fun things ",
+  "year": 2022,
+  "rating": 8.5,
+  "posted_by": "6432d060a003d5cb690a418c"
+}]

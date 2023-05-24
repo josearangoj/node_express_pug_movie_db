@@ -1,0 +1,27 @@
+extends layout 
+
+block content
+   if user 
+      h3.welcome-message Welcome back #{user.name}
+
+
+   h1.movies-heading Movies
+
+   each movie in movies
+      a.movie-link(href="/movie/" + movie._id)
+         h2.movie-title Name: #{movie.name}
+
+         p.movie-description Description: #{movie.description}
+
+         div.movie-details
+            p.movie-year Year: #{movie.year}
+            p.movie-rating Rating: #{movie.rating}
+
+            p.movie-genres Genres:
+            ul.movie-genres-list
+
+            each genre in movie.genres 
+               li.movie-genre= genre
+
+   br
+   br

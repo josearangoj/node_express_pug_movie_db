@@ -1,0 +1,35 @@
+extends layout
+
+block content
+
+    h1#edit-movie-heading Edit Movie
+
+    form#edit-movie-form(method="POST")
+
+        .form-group 
+            label(for="name") Name:
+            input#title-input.form-control(name="name", type="text", value=movie.name)
+
+        .form-group 
+            label(for="description") Description:
+            input#description-input.form-control(name="description", type="text", value=movie.description)
+
+        .form-group 
+            label(for="year") Year:
+            input#year-input.form-control(name="year", type="number", value=movie.year)
+
+        .form-group 
+            label(for="rating") Rating:
+            input#rating-input.form-control(name="rating", type="text", value=movie.rating)
+
+        .form-group 
+            label(for="genres") Genres:
+            div.genres-container
+                each genre in genres
+                    label
+                        input.form-check-input(name="genres", type="checkbox", value=genre, checked=movie.genres.includes(genre))
+                        span= genre
+                    
+
+        input#submit-btn.btn.btn-primary(type="submit", value="Submit")
+
