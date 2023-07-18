@@ -54,4 +54,4 @@ app.use("/users", user_routes)
 
 
 PORT = 8000;
-app.listen(PORT, () => console.log("Server Running..."));
+app.listen(PORT, () => console.log("Server Running on http://localhost:8000/"));

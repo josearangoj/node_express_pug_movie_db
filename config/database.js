@@ -1,5 +1,5 @@
 module.exports = {
-   database: "mongodb+srv://ingjdaj:jose1202@cluster0.gjxzodd.mongodb.net/?retryWrites=true&w=majority",
+   database: "mongodb+srv://ingjdaj:password@cluster0.gjxzodd.mongodb.net/?retryWrites=true&w=majority",
    secret: "secret"
 }
 
