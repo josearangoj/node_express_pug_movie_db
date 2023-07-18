@@ -3,7 +3,7 @@ Express/Node.JS Movies Database
 
 This is a Node.js movie application powered by and Express which is a minimalist and flexible Node.js web application <u>framework</u> that provides the main functions you'd expect from the website. The database is administrated by MongoDB Atlas which provide a cloud database designed to accelerate and simplify how you build with data.
 
-![Chat Preview](C:\JDAJ_Programming\Projects\test\node_movie_database_1\img\home.png)
+![Chat Preview](https://github.com/josearangoj/node_movie_database_1/blob/main/img/home.png)
 
 ---
 
