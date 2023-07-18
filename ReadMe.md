@@ -7,15 +7,6 @@ This is a Node.js movie application powered by and Express which is a minimalist
 
 ---
 
-## Features
-
-- Login / Register (authentication  and security included by bycript)
-- Add New Movie
-- Single Movie View
-- Search Movie
-
----
-
 ## Setup
 
 Clone this repo to your desktop and run `npm install` to install all the dependencies. You might want to look into `config.json` to make change the port you want to use and set up a SSL certificate.
@@ -29,3 +20,16 @@ After you clone this repo to your desktop, go to its root directory and run `npm
 Once the dependencies are installed, you can run  `npm start` to start the application. You will then be able to access it at localhost:8000
 
 ---
+
+## Features
+
+- Login / Register (authentication  and security included by bycript)
+  ![Chat Preview](https://github.com/josearangoj/node_movie_database_1/blob/main/img/register.png)
+- Add New Movie
+  ![Chat Preview](https://github.com/josearangoj/node_movie_database_1/blob/main/img/add_movie.png)
+- Single Movie View
+  ![Chat Preview](https://github.com/josearangoj/node_movie_database_1/blob/main/img/single_movie.png)
+- Search Movie
+  ![Chat Preview](https://github.com/josearangoj/node_movie_database_1/blob/main/img/search.png)
+---
+
